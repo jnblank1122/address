@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in your address to have your package shipped correctly.</h1>
+      <div id="blank">
+        <form>
+          <div class="form">
+            <label for="name">Enter your name: </label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form">
+            <label for="street">Street: </label>
+            <input id="street" class="form-control" type="text">
+          </div>
+          <div class="form">
+            <label for="citystate">City, State: </label>
+            <input id="citystate" class="form-control" type="text">
+          </div>
+          <div class="form">
+            <label for="zip">Zip: </label>
+            <input id="zip" class="form-control" type="text">
+          </div>
+
+              <button type="submit" class="btn">Show me the story!</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="receipt">
+        <h2>Here's your receipt!</h2>
+          <p> Thank you <span class="name"></span> ! </br>  This is your confirmation receipt, and we will be sending your package to the address below. </br> Shipping Address:</br> <span class="street"></span></br> <span class="citystate"></span></br><span class="zip"></span>
+          </p>
+      </div>
+    </div>
+
+  </body>
+</html>

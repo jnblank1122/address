@@ -1,0 +1,21 @@
+#receipt {
+  display: none;
+  border-style: dashed;
+  margin-top: 150px;
+  width: 45%;
+  margin: auto;
+  padding: 20px;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 4em;
+  color: #4e8c90;
+  font-family: "Arial Rounded";
+}
+
+button.btn {
+  width: 12em;
+  margin-left: 45%;
+  color: #42fa43;
+}
